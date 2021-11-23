@@ -1,27 +1,29 @@
+import React, { useState } from "react";
 import './Header.css';
-import masterneologo from "../images/MNlogo.svg";
+import Logo from "../images/Logo.svg";
 
 function Header() {
-  return (
+    
+    const [navbarOpen, setNavbarOpen] = useState(false)
+  
+    return (
       <div>
         <header className="header">
+
             <div>
-                <p>hamburgermenu</p>
+                <p>text</p>
             </div>
-            <div>
-                <span className="header__logo">
-                    <img src={masterneologo} alt="M" />
-                </span>
-                <span className="header__text">
-                    <h1>MASTER NEO</h1>
-                    <p>moderations</p>
-                </span>
+
+            <div className="header_Logo">
+                <img src={Logo} alt="Master neo" />
             </div>
+
             <div>
-                <button>
+                <button className="button">
                     Hire us
                 </button>
             </div>
+
         </header>
     </div>
   );
