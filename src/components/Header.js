@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { MdClose } from "react-icons/md";
 import { FiMenu } from "react-icons/fi";
-import './Header.css';
+import '../css/Header.css';
 import Logo from "../images/Logo.svg";
 
 function Header() {
