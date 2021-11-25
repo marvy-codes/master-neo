@@ -15,15 +15,15 @@
     position: relative;
   }
   
-  .navBar button {
+.navBar button {
     position: fixed;
-    left: 40px;
+    left: 5px;
     top: 40px;
     z-index: 10;
     cursor: pointer;
-  }
+}
   
-  .menuNav {
+.menuNav {
     overflow-y: scroll;
     list-style: none;
     position: fixed;
@@ -36,11 +36,13 @@
     overflow: hidden;
     max-width: 290px;
     z-index: 9;
-  }
+    display: none;
+}
   
-  .menuNav.showMenu {
+.menuNav.showMenu {
     width: 100%;
-  }
+    display: block;
+}
   
   a {
     display: block;
@@ -52,5 +54,15 @@
   }
   
   .menuNav li:first-child {
-    margin-top: 7rem;
+    margin-top: 4rem;
   }
+
+
+.navBar button {
+    background-color: transparent;
+    border-width: 0;
+}
+/* .navBar {
+    transition-property: all; 
+    transition-duration: 1s;
+} */
