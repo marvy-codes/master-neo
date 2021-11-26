@@ -1,4 +1,5 @@
 import Header from './components/Header';
+import Aside from './components/Aside';
 import headershadow from "./images/headershadow.svg";
 import './App.css';
 
@@ -9,6 +10,7 @@ function App() {
         <img src={headershadow} alt="" />
       </div>
       <Header />
+      <Aside />
     </div>
   );
 }

@@ -26,12 +26,16 @@ function Header() {
                     )}
                 </button>
                 <ul className={`menuNav ${navbarOpen ? " showMenu" : ""}`}>
-                    <li activeClassName="active-link" onClick={() => closeMenu()} >...</li>
+                    <img src={Logo} alt="Master neo" />
+                    <li activeClassName="active-link" onClick={() => closeMenu()} >About us</li>
+                    <li activeClassName="active-link" onClick={() => closeMenu()} >Why us</li>
+                    <li activeClassName="active-link" onClick={() => closeMenu()} >Clients</li>
+                    <li activeClassName="active-link" onClick={() => closeMenu()} >Contact us</li>
                 </ul>
             </nav>
             
 
-            <div className="header_Logo">
+            <div className="header_logo">
                 <img src={Logo} alt="Master neo" />
             </div>
 

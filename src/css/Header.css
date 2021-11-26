@@ -1,10 +1,16 @@
 .header {
-    margin-left: 20px;
-    margin-right: 20px;
+    padding-left: 24px;
+    padding-right: 20px;
+    padding-bottom: 20px;
     display: flex;
     justify-content: space-between;
-    flex-grow: 1, 1.5, 1;
     z-index: 4;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(26, 32, 38, 1);
+    margin-top: 0em;
 }
 
 .button {
@@ -28,19 +34,20 @@
     list-style: none;
     position: fixed;
     top: 0;
-    background: darkcyan;
+    background: #4AAAFF;
     left: 0;
     bottom: 0;
-    height: 100vh;
-    width: 0;
-    overflow: hidden;
-    max-width: 290px;
+    height: 40vh;
+    width: 100vw;
+    /* overflow: hidden; */
     z-index: 9;
     display: none;
+    text-align: center;
+    justify-content: center;
+    margin-top: 0;
 }
   
 .menuNav.showMenu {
-    width: 100%;
     display: block;
 }
   
@@ -61,8 +68,14 @@
 .navBar button {
     background-color: transparent;
     border-width: 0;
+    margin-top: -20px;
 }
 /* .navBar {
     transition-property: all; 
     transition-duration: 1s;
 } */
+
+.header_logo {
+  margin-left: 40px;
+}
+  
