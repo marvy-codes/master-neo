@@ -10,11 +10,12 @@ function Aside() {
                     <h3>MODERATION AGENCY</h3>
                     <p>The very first ever created moderation providing agency</p>
                     <button>Hire us</button>
-                    <ul>
+                    {/* <ul>
                         <li><a>Twitter</a></li>
                         <li><a>Medium</a></li>
                         <li><a>Instagram</a></li>
-                    </ul>
+                        images to link
+                    </ul> */}
                 </div>
 
                 <div>

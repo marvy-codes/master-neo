@@ -3,6 +3,7 @@ import { MdClose } from "react-icons/md";
 import { FiMenu } from "react-icons/fi";
 import '../css/Header.css';
 import Logo from "../images/Logo.svg";
+import navbarlogo from "../images/navbarlogo.svg";
 
 function Header() {
     
@@ -26,11 +27,12 @@ function Header() {
                     )}
                 </button>
                 <ul className={`menuNav ${navbarOpen ? " showMenu" : ""}`}>
-                    <img src={Logo} alt="Master neo" />
-                    <li activeClassName="active-link" onClick={() => closeMenu()} >About us</li>
-                    <li activeClassName="active-link" onClick={() => closeMenu()} >Why us</li>
-                    <li activeClassName="active-link" onClick={() => closeMenu()} >Clients</li>
-                    <li activeClassName="active-link" onClick={() => closeMenu()} >Contact us</li>
+                    <img className="navlogo" src={navbarlogo} alt="Master neo" />
+                    <li onClick={() => closeMenu()} >About us</li>
+                    <li onClick={() => closeMenu()} >Why us</li>
+                    <li onClick={() => closeMenu()} >Clients</li>
+                    <li onClick={() => closeMenu()} >Contact us</li>
+                    <button className="button navbutton" onClick={() => closeMenu()}>Hire us </button>
                 </ul>
             </nav>
             

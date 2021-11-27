@@ -11,6 +11,7 @@
     right: 0;
     background-color: rgb(26, 32, 38, .97);
     margin-top: 0em;
+    border-radius: 8px;
 }
 
 .button {
@@ -46,6 +47,7 @@
     justify-content: center;
     margin-top: 0;
     padding-inline-start: 0px;
+    border-radius: 8px;
 }
   
 .menuNav.showMenu {
@@ -79,4 +81,15 @@
 .header_logo {
   margin-left: 40px;
 }
-  
+
+.navbutton {
+  color:#4AAAFF !important;
+  position: relative;
+  margin-left: 265px;
+  margin-bottom: 16px;
+  background-image: linear-gradient(to bottom, #FCFCFC, #FCFCFC) !important;
+}
+
+.navlogo {
+  margin-top: 34px;
+}
