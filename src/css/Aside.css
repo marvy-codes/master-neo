@@ -1,3 +1,30 @@
-.aside {
-    border-top: 20px;
+.aside{
+    padding-top: 200px;
+    height: 100vh;
+}
+.aside .asidebutton {
+    margin-top: 40px;
+    height: 50px;
+    width: 156px;
+    font-size: large;
+}
+.asidelogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.aside ul {
+    list-style-type: none;
+    margin-left: auto;
+    margin-right: auto;
+    padding-inline-start: 0;
+    margin-top: 40px;
+}
+.aside ul li {
+    display: inline;
+    margin-right: 6px;
+}
+.aside ul:first-child {
+    margin-left: -6px;
 }

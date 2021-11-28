@@ -1,4 +1,8 @@
 import '../css/Aside.css';
+import asidelogo from "../images/asidelogo.svg";
+import twitterlogo from "../images/twitterlogo.svg";
+import instagramlogo from "../images/instagramlogo.svg";
+import mediumlogo from "../images/mediumlogo.svg";
 
 function Aside() {
         
@@ -6,19 +10,16 @@ function Aside() {
         <div>
             <aside className="aside">
                 <div>
-                    <h1> MASTER NEO</h1>
-                    <h3>MODERATION AGENCY</h3>
-                    <p>The very first ever created moderation providing agency</p>
-                    <button>Hire us</button>
-                    {/* <ul>
-                        <li><a>Twitter</a></li>
-                        <li><a>Medium</a></li>
-                        <li><a>Instagram</a></li>
-                        images to link
-                    </ul> */}
+                   <img src={asidelogo} alt="Master neo" className="asidelogo" />
+                    <button className="button asidebutton">Hire us</button>
+                    <ul>
+                        <li><img src={twitterlogo} alt="twitter" className="twitterlogo" /></li>
+                        <li><img src={mediumlogo} alt="medium" className="mediumlogo" /></li>
+                        <li><img src={instagramlogo} alt="instagram" className="instagramlogo" /></li>
+                    </ul>
                 </div>
 
-                <div>
+                <div >
                     <div>box 1</div>
                     <div>box 2</div>
                     <div>box 3</div>

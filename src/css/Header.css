@@ -9,7 +9,7 @@
     top: 0;
     left: 0;
     right: 0;
-    background-color: rgb(26, 32, 38, .97);
+    background-color: rgb(26, 32, 38, .99);
     margin-top: 0em;
     border-radius: 8px;
 }
@@ -40,7 +40,6 @@
     bottom: 0;
     height: 40vh;
     width: 100vw;
-    /* overflow: hidden; */
     z-index: 9;
     display: none;
     text-align: center;
@@ -54,24 +53,24 @@
     display: block;
 }
   
-  a {
-    display: block;
-    padding: 10px 40px;
-    text-decoration: none;
-    color: #3fffd2;
-    text-transform: uppercase;
-    font-weight: bold;
-  }
+/* a {
+  display: block;
+  padding: 10px 40px;
+  text-decoration: none;
+  color: #3fffd2;
+  text-transform: uppercase;
+  font-weight: bold;
+} */
   
-  .menuNav li:first-child {
-    margin-top: 4rem;
-  }
+.menuNav li:first-child {
+  margin-top: 4rem;
+}
 
 
 .navBar button {
     background-color: transparent;
     border-width: 0;
-    margin-top: -20px;
+    margin-top: -24px;
 }
 /* .navBar {
     transition-property: all; 
@@ -85,8 +84,8 @@
 .navbutton {
   color:#4AAAFF !important;
   position: relative;
-  margin-left: 265px;
-  margin-bottom: 16px;
+  margin-left: 72%;
+  top: 8px;
   background-image: linear-gradient(to bottom, #FCFCFC, #FCFCFC) !important;
 }
 
