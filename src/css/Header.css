@@ -84,9 +84,14 @@
 .navbutton {
   color:#4AAAFF !important;
   position: relative;
-  margin-left: 72%;
+  margin-left: 75%;
   top: 8px;
   background-image: linear-gradient(to bottom, #FCFCFC, #FCFCFC) !important;
+}
+@media ( min-width: 820px) {
+  .navbutton {
+    margin-left: 90%;
+  }
 }
 
 .navlogo {

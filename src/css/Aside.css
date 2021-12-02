@@ -28,3 +28,38 @@
 .aside ul:first-child {
     margin-left: -6px;
 }
+
+/*  
+    for the cards the parent element must have 
+    a position other than static for the abosolute value to work 
+*/
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+.card {
+    position: relative;
+}
+
+.glowDot {
+    display: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background: #1a2026;
+    box-shadow: inset 0px 0px 10px 2px #4AAAFF,
+                    0px 0px 10px 2px #1c74c1;
+    animation: pulse 1s alternate infinite;
+}
+
+@keyframes pulse {
+    0% {
+      background: #1c74c1;
+      box-shadow: none;
+    }
+    100% {
+      background: #1c74c1;
+      box-shadow: inset 0px 0px 10px 2px #1c74c1
+                        0px 0px 15px 2px #93c9f8;
+    }
+  }

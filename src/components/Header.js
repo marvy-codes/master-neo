@@ -26,7 +26,7 @@ function Header() {
                         <FiMenu style={{ color: "#FCFCFC", width: "40px", height: "40px" }} />
                     )}
                 </button>
-                <ul className={`menuNav ${navbarOpen ? " showMenu" : ""}`}>
+                <ul className={`menuNav menuNavHire ${navbarOpen ? " showMenu" : ""}`}>
                     <img className="navlogo" src={navbarlogo} alt="Master neo" />
                     <li onClick={() => closeMenu()} >About us</li>
                     <li onClick={() => closeMenu()} >Why us</li>
