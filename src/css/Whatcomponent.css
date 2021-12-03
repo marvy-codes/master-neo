@@ -1,3 +1,4 @@
+/* what CSS stylesheet */
 .what, h5 {
   text-align: left;
   padding-left: 12px;
@@ -7,37 +8,115 @@
 }
 .what, p {
   font-size: 0.8em;
-  padding-left: 12px;
+  padding-left: 16px !important;
   padding-right: 12px;
   text-align: left;
-  font-weight: 380;
-  line-height: 1.5rem;
+  font-weight: 300;
+  line-height: 1.4rem;
   font-size: smaller;
+  width: auto;
+  height: auto;
 }
 .MNMA {
   color: #1c74c1;
 }
+.whatcards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px 12px;
+}
+.whatcard {
+  position: relative;
+  margin-top: auto;
+}
+
 .whatglowDot {
-    /* position: absolute; */
-    width: 10px;
-    height: 10px;
-    border-radius: 100%;
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
     background: #1a2026;
     box-shadow: inset 0px 0px 10px 2px #4AAAFF,
                     0px 0px 10px 2px #1c74c1;
     animation: pulse 1s alternate infinite;
-    bottom: 21px;
-    right: 14px;
+    bottom: 13.7px;
+    right: 7.6px;
 }
 
 @keyframes pulse {
-    0% {
-      background: #1c74c1;
-      box-shadow: none;
-    }
-    100% {
-      background: #1c74c1;
-      box-shadow: inset 0px 0px 10px 2px #1c74c1
-                        0px 0px 15px 2px #93c9f8;
-    }
+  0% {
+    background: #1c74c1;
+    box-shadow: none;
   }
+  100% {
+    background: #1c74c1;
+    box-shadow: inset 0px 0px 10px 2px #1c74c1
+                      0px 0px 15px 2px #93c9f8;
+  }
+}
+
+.whatimage {
+  position: relative;
+  height: 280px;
+  margin-top: 3em;
+}
+.whatimage__telegram {
+  position: absolute;
+  bottom: 66px;
+  right: 88px;
+  width: 100px;
+  animation: telegram 1.8s alternate infinite; 
+}
+.whatimage__discord {
+  position: absolute;
+  right: 120px;
+  width: 160px;
+  animation: discord 1.8s alternate infinite;
+}
+.whatimage__twitter {
+  position: absolute;
+  right: 202px;
+  top: -40px;
+  width: 120px;
+  animation: twitter 1.8s alternate infinite;
+}
+
+@keyframes discord {
+  0% {
+    transform: scale(0.88);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes telegram {
+  0% {
+    transform: scale(0.88) translate(0px, 0px);
+  }
+  100% {
+    transform: scale(1) translate(10px, 10px);
+  }
+}
+@keyframes twitter {
+  0% {
+    transform: scale(0.88) translate(10px, 10px);
+  }
+  100% {
+    transform: scale(1) translate(0px, 0px); 
+  }
+}
+
+
+/* About CSS stylesheet */
+.About, h5 {
+  text-align: left;
+  padding-left: 4px;
+  height: 23px;
+  width: 140px;
+  font-weight: 500;
+}
+
+.About, p {
+  width: auto;
+}

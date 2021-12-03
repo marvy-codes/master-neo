@@ -30,8 +30,8 @@
 }
 
 /*  
-    for the cards the parent element must have 
-    a position other than static for the abosolute value to work 
+    for the cards the parent element must have a position
+    other than static for the abosolute value to work...
 */
 .cards {
     display: flex;
@@ -48,7 +48,7 @@
     position: absolute;
     width: 10px;
     height: 10px;
-    border-radius: 100%;
+    border-radius: 50%;
     background: #1a2026;
     box-shadow: inset 0px 0px 10px 2px #4AAAFF,
                     0px 0px 10px 2px #1c74c1;
