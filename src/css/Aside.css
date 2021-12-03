@@ -36,13 +36,16 @@
 .cards {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px 12px;
 }
 .card {
     position: relative;
+    margin-top: auto;
 }
 
 .glowDot {
-    display: absolute;
+    position: absolute;
     width: 10px;
     height: 10px;
     border-radius: 100%;
@@ -50,6 +53,8 @@
     box-shadow: inset 0px 0px 10px 2px #4AAAFF,
                     0px 0px 10px 2px #1c74c1;
     animation: pulse 1s alternate infinite;
+    bottom: 21px;
+    right: 14px;
 }
 
 @keyframes pulse {
