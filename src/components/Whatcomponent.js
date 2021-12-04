@@ -41,27 +41,27 @@ function Whatcomponent() {
       </div>
 
       <div className="About">
-        <h5>About <span className="MNMA">MNMA</span></h5>
-        <p>
-          Master Neo's Moderation Agency is fully sustainable and efficient Moderation provision
-          service that gives Project owners and Developers confidence and peace of mind knowing
-          that their communities and social Accounts are properly and efficiently managed free 
-          from spammers fudders and negative individuals.
-        </p>
-        <p>
-          MNMA is a revolutionary approach to the management Space that matches all your needs with
-          an all-in-one-robust, easy-to-apply platform.
-        </p>
-        <p>
-          We offer 24-hour coverage on community groups. We have Moderators from every Time-Zone needed
-          to achieve proper 24-hour community coverage. This directly increases effective management of
-          project groups and chats, in which we have one or two people covering chat at every hour of the
-          day handling FUDS, SPAMS and NEGATIVE TALKS.
-        </p>
-        <div className="whatimage">
-          <img src={abouticon} alt="about description" className="Abouticon" />
-        </div>
-        </div>
+          <h5>About <span className="MNMA">MNMA</span></h5>
+            <p>
+              Master Neo's Moderation Agency is fully sustainable and efficient Moderation provision
+              service that gives Project owners and Developers confidence and peace of mind knowing
+              that their communities and social Accounts are properly and efficiently managed free 
+              from spammers fudders and negative individuals.
+            </p>
+            <p>
+              MNMA is a revolutionary approach to the management Space that matches all your needs with
+              an all-in-one-robust, easy-to-apply platform.
+            </p>
+            <p>
+              We offer 24-hour coverage on community groups. We have Moderators from every Time-Zone needed
+              to achieve proper 24-hour community coverage. This directly increases effective management of
+              project groups and chats, in which we have one or two people covering chat at every hour of the
+              day handling FUDS, SPAMS and NEGATIVE TALKS.
+            </p>
+          <div className="Aboutimage">
+            <img src={abouticon} alt="about description" className="Abouticon" />
+          </div>
+      </div>
     </div>
   );
 }

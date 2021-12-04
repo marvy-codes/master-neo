@@ -112,11 +112,14 @@
 .About, h5 {
   text-align: left;
   padding-left: 4px;
-  height: 23px;
-  width: 140px;
   font-weight: 500;
 }
-
 .About, p {
   width: auto;
+}
+.Aboutimage {
+  position: relative;
+  top: -24px;
+  height: 380px;
+  z-index: -12;
 }
