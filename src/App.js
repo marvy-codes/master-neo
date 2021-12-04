@@ -5,6 +5,7 @@ import Aside from './components/Aside';
 import Whatcomponent from './components/Whatcomponent';
 import Whycomponent from './components/Whycomponent';
 import Happyclient from './components/Happyclient';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Whatcomponent />
       <Whycomponent />
       <Happyclient />
+      <Footer />
     </div>
   );
 }
