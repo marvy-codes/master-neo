@@ -4,6 +4,7 @@ import Header from './components/Header';
 import Aside from './components/Aside';
 import Whatcomponent from './components/Whatcomponent';
 import Whycomponent from './components/Whycomponent';
+import Happyclient from './components/Happyclient';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Aside />
       <Whatcomponent />
       <Whycomponent />
+      <Happyclient />
     </div>
   );
 }
