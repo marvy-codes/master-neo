@@ -1,0 +1,45 @@
+.footer {
+    display: flex;
+    position: relative;
+}
+.footer h4{
+    margin-top: 100px;
+    margin-left: -36px;
+}
+.footer h5{
+    margin-bottom: 50px;
+    font-size: large;
+    width: max-content;
+}
+.footerbutton {
+    position: absolute;
+    left: 12px;
+    width: 114px;
+    height: 46px;
+}
+.footernav {
+    list-style: none;
+    z-index: 9;
+    text-align: left;
+    justify-content: center;
+    margin: 0;
+    padding-inline-start: 12px;
+    border-radius: 8px;
+    margin-left: 8px;
+}
+.foot2 {
+    align-self: flex-end;
+}
+.footerul {
+    list-style-type: none;
+    margin-left: auto;
+    margin-right: auto;
+    padding-inline-start: 0;
+}
+.footerul li {
+    display: inline;
+    margin-right: 6px;
+}
+.footerul li img {
+    width: 40px;
+}
