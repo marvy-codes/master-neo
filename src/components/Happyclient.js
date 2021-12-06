@@ -27,7 +27,7 @@ function Happyclient() {
                 <img src={happyclient4} alt="shiba Rocket" className="" />
                 <div className="happyglowDot"></div>
             </div>
-            <div className="happycard">
+            <div className="happycard happycard5">
                 <img src={happyclient5} alt="Devolutioin" className="" />
                 <div className="happyglowDot"></div>
             </div>

@@ -1,4 +1,11 @@
 /* what CSS stylesheet */
+@media only screen and (min-width: 700px), ( orientation: landscape) {
+  .what.what {
+    background-color: red;
+  }
+}
+
+
 .what, h5 {
   text-align: left;
   padding-left: 12px;

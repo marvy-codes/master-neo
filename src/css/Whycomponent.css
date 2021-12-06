@@ -45,7 +45,7 @@
        transform: translate(1.6px);
     }
       100% {
-        transform: translate(0, 2242px);
+        transform: translate(0, 130em);
     }
 }
   

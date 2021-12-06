@@ -1,14 +1,15 @@
 .happycards {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    gap: 12px 12px;
+    justify-content: space-evenly;
+    flex-direction: row;
+    row-gap: 22px;
+    column-gap: -34px;
 }
 .happycard {
     position: relative;
     margin-top: auto;
 }
-
 .happyglowDot {
     position: absolute;
     width: 10px;
