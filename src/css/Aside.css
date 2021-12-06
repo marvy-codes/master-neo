@@ -14,6 +14,15 @@
     margin-right: auto;
 
 }
+@media (min-width: 48em) {
+    .asidelogo {
+        width: 580px;
+        height: 200;
+    }
+    .asidemenubar {
+        display: none;
+    }
+  }
 .aside ul {
     list-style-type: none;
     margin-left: auto;
