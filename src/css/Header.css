@@ -97,3 +97,65 @@
 .navlogo {
   margin-top: 34px;
 }
+
+
+
+/* desktop css stylesheet  */
+@media (min-width: 48em) {
+  .header {
+    display: none;
+  }
+}
+
+.header__desktop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -8px;
+}
+.menuNav__desktop1 {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+.menuNav__desktop1 > li {
+  display: inline;
+  margin-top: 0px;
+  padding-left: 24px;
+  margin-left: 8px;
+  padding-right: 24px;
+  margin-right: 8px;
+  font-weight: 300;
+  font-size: small;
+}
+.menuNav__desktop2 {
+  list-style: none;
+}
+.menuNav__desktop2 > li {
+  display: inline;
+  margin-top: 16px;
+}
+.header__desktop__item2 {
+  margin-top: 0px;
+}
+.header__desktop__item3{
+  display: flex;
+  align-content: center;
+  margin-top: 2px;
+  justify-content: space-evenly;
+}
+.header__desktop__item3 > button {
+  margin-top: 22px;
+  margin-left: 12px;
+}
+.menuNav__desktop2 > li >img {
+  margin-top: 6px;
+  margin-left: 12px;
+  width: 26px;
+}
+
+@media (max-width: 48em) {
+  .header__desktop {
+    display: none;
+}
+}

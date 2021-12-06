@@ -2,6 +2,7 @@
 
 :root {
   box-sizing: border-box;
+  font-size: calc(1vw + 0.75em); 
 }
 *, ::before, ::after {
   box-sizing: inherit;
