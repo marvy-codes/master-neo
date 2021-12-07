@@ -1,10 +1,15 @@
 /* what CSS stylesheet */
-@media only screen and (min-width: 700px), ( orientation: landscape) {
-  .what.what {
-    background-color: red;
+@media (min-width: 45em) {
+  .what {
+    display: flex;
+    justify-items: normal;
+    justify-content: space-between;
+    margin-bottom: 100px;
+  }
+  .what__desktop2 {
+    margin-left: 360px;
   }
 }
-
 
 .what, h5 {
   text-align: left;
@@ -47,8 +52,8 @@
     box-shadow: inset 0px 0px 10px 2px #4AAAFF,
                     0px 0px 10px 2px #1c74c1;
     animation: pulse 1s alternate infinite;
-    bottom: 13.7px;
-    right: 7.6px;
+    bottom: 18px;
+    right: 8px;
 }
 
 @keyframes pulse {
@@ -116,17 +121,31 @@
 
 
 /* About CSS stylesheet */
-.About, h5 {
+.about, h5 {
   text-align: left;
   padding-left: 4px;
   font-weight: 500;
 }
-.About, p {
+.about, p {
   width: auto;
 }
-.Aboutimage {
+.aboutimage {
   position: relative;
   top: -24px;
   height: 380px;
   z-index: -12;
+}
+@media (min-width: 45em) {
+  .about {
+    display: flex;
+    justify-items: normal;
+    justify-content: space-between;
+    margin-bottom: 100px;
+  }
+  .what__desktop2 {
+    margin-left: 360px;
+  }
+  .about__desktop2 {
+    order: -1;
+  }
 }

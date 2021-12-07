@@ -153,6 +153,11 @@
   margin-left: 12px;
   width: 26px;
 }
+.header__desktop__item3 > button{
+  width: 120px;
+  height: 40px;
+  margin-right: 12px;
+}
 
 @media (max-width: 48em) {
   .header__desktop {
