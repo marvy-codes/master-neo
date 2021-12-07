@@ -27,7 +27,7 @@ function Whycomponent() {
                 </div>
 
                 <div className="whycontent">
-                    <h3 className="MNMA">Fully Doxxed</h3>
+                    <h3 className="MNMA">Fully Doxxed?</h3>
                     <h5>Moderators</h5>
                     <div className="whyflex__twist">
                         <img src={whylogo2} alt="Fully Doxxed" className="whylogo2" />
@@ -41,20 +41,18 @@ function Whycomponent() {
                 </div>
 
                 <div className="whycontent">
-                    <h3 className="MNMA">Versatility</h3>
+                    <h3 className="MNMA">Versatility?</h3>
                     <div className="whyflex">
                         <img src={whylogo3} alt="Versatility" className="whylogo3"/>
                         <p>
-                            All Moderators under our agency are doxxed with us: the agency has their details and information. So 
-                            the problem of moderators collecting pay and running away without working is eradicated here. Also, interactions
-                            aren't made with moderators directly: they are carried out through the Agency's representative for a particular
-                            project.
+                            Due to the large number of projects launching every day, we have also adapted by having more than enough
+                            moderators on board. Meaning we can handle multi-projects at the same time. Both long-term and short-term.
                         </p>
                     </div>
                 </div>
 
                 <div className="whycontent">
-                    <h3 className="MNMA">Trained Moderators</h3>
+                    <h3 className="MNMA">Trained Moderators?</h3>
                     <div className="whyflex__twist">
                         <img src={whylogo4} alt="Trained Moderators" className="whylogo4" />
                         <p>
@@ -66,7 +64,7 @@ function Whycomponent() {
                 </div>
 
                 <div className="whycontent">
-                    <h3 className="MNMA">Community Focus</h3>
+                    <h3 className="MNMA">Community Focus?</h3>
                     <div className="whyflex">
                         <img src={whylogo5} alt="Community Focus" className="whylogo5" />
                         <p>
