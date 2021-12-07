@@ -45,7 +45,20 @@
        transform: translate(1.6px);
     }
       100% {
-        transform: translate(0, 130em);
+        transform: translate(0, 2110px);
     }
 }
+
+/* desktop view */
   
+@media (min-width: 40em) {
+    .whyflex {
+      display: flex;
+    }
+    .whyflex__twist {
+        display: flex;
+    }
+    .whyflex__twist > p {
+        order: -1;
+    }
+}
