@@ -40,12 +40,29 @@
     animation: straightLine 8.5s infinite linear;
 }
 
+.slidercover {
+    position: absolute;
+    height: 60px;
+    width: 14px;
+    z-index: 24;
+    bottom: -18px;
+    left: -10px;
+    background-color: #1a2026;
+    color: #1a2026;
+}
+@media (max-width: 40em) {
+    .slidercover {
+        height: 80px;
+        bottom: -28px
+    }
+}
+
 @keyframes straightLine {
     0% {
        transform: translate(1.6px);
     }
       100% {
-        transform: translate(0, 2110px);
+        transform: translate(0, 2100px);
     }
 }
 
@@ -60,5 +77,37 @@
     }
     .whyflex__twist > p {
         order: -1;
+    }
+}
+
+/* Slider desktop */
+@media (min-width: 40em) {
+    @keyframes straightLine {
+        0% {
+           transform: translate(1.6px);
+        }
+          100% {
+            transform: translate(0, 1460px);
+        }
+    }
+}
+@media (min-width: 58em) {
+    @keyframes straightLine {
+        0% {
+           transform: translate(1.6px);
+        }
+          100% {
+            transform: translate(0, 1530px);
+        }
+    }
+}
+@media (min-width: 65em) {
+    @keyframes straightLine {
+        0% {
+           transform: translate(1.6px);
+        }
+          100% {
+            transform: translate(0, 1660px);
+        }
     }
 }

@@ -141,11 +141,27 @@
     justify-items: normal;
     justify-content: space-between;
     margin-bottom: 100px;
+    align-items: center;
+  }
+  .what__desktop1 > h5 {
+    margin-top: 120px;
   }
   .what__desktop2 {
     margin-left: 360px;
+    margin-top: 90px;
   }
   .about__desktop2 {
     order: -1;
+  }
+  .abouticon {
+    margin-right: 80px;
+    transform: scale(1.4)
+  }
+}
+
+@media (min-width: 56em) {
+  .abouticon {
+    margin-right: 80px;
+    transform: scale(1.7)
   }
 }
