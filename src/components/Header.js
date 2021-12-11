@@ -4,9 +4,7 @@ import { FiMenu } from "react-icons/fi";
 import '../css/Header.css';
 import Logo from "../images/Logo.svg";
 import navbarlogo from "../images/navbarlogo.svg";
-import twitterlogo from "../images/twitterlogo.svg";
-import instagramlogo from "../images/instagramlogo.svg";
-import mediumlogo from "../images/mediumlogo.svg";
+// import twitterlogo from "../images/twitterlogo.svg";
 
 function Header() {
     
@@ -30,11 +28,10 @@ function Header() {
                 </button>
                 <ul className={`menuNav menuNavHire ${navbarOpen ? " showMenu" : ""}`}>
                     <img className="navlogo" src={navbarlogo} alt="Master neo" />
-                    <li onClick={() => closeMenu()} >About us</li>
-                    <li onClick={() => closeMenu()} >Why us</li>
-                    <li onClick={() => closeMenu()} >Clients</li>
-                    <li onClick={() => closeMenu()} >Contact us</li>
-                    <button className="button navbutton" onClick={() => closeMenu()}>Hire us </button>
+                    <li onClick={() => closeMenu()} ><a href="#aboutus">About us</a></li>
+                    <li onClick={() => closeMenu()} ><a href="#whyus">why us</a></li>
+                    <li onClick={() => closeMenu()} ><a href="#clients">Clients</a></li>
+                    <button className="button navbutton" onClick={() => closeMenu()}><a href="https://t.me/neo_49">Hire us</a></button>
                 </ul>
             </nav>
             <div className="header_logo">
@@ -43,7 +40,7 @@ function Header() {
 
             <div>
                 <button className="button">
-                    Hire us
+                    <a href="https://t.me/neo_49">Hire us</a>
                 </button>
             </div>
         </header>
@@ -56,20 +53,18 @@ function Header() {
 
             <div className="header__desktop__item2">
                 <ul className="menuNav__desktop1">
-                    <li>About us</li>
-                    <li>Why us</li>
-                    <li>Clients</li>
+                    <li><a href="#aboutus">About us</a></li>
+                    <li><a href="#whyus">why us</a></li>
+                    <li><a href="#clients">Clients</a></li>
                 </ul>
             </div>
 
             <div className="header__desktop__item3">
                 <ul className="menuNav__desktop2"> 
-                    <li><img src={twitterlogo} alt="twitter" className="twitterlogo" /></li>
-                    <li><img src={mediumlogo} alt="medium" className="mediumlogo" /></li>
-                    <li><img src={instagramlogo} alt="instagram" className="instagramlogo" /></li>
+                    {/* <li><img src={twitterlogo} alt="twitter" className="twitterlogo" /></li> */}
                 </ul>
                 <button className="button">
-                        Hire us
+                    <a href="https://t.me/neo_49">Hire us</a>
                 </button>
             </div>
 

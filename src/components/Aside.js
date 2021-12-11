@@ -16,11 +16,11 @@ function Aside() {
             <aside className="aside">
                 <div>
                    <img src={asidelogo} alt="Master neo" className="asidelogo" />
-                    <button className="button asidebutton">Hire us</button>
+                    <button className="button asidebutton"><a href="https://t.me/neo_49">Hire us</a></button>
                     <ul className="asidemenubar">
-                        <li><img src={twitterlogo} alt="twitter" className="twitterlogo" /></li>
+                        {/* <li><img src={twitterlogo} alt="twitter" className="twitterlogo" /></li>
                         <li><img src={mediumlogo} alt="medium" className="mediumlogo" /></li>
-                        <li><img src={instagramlogo} alt="instagram" className="instagramlogo" /></li>
+                        <li><img src={instagramlogo} alt="instagram" className="instagramlogo" /></li> */}
                     </ul>
                 </div>
 

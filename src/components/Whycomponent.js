@@ -7,7 +7,7 @@ import whylogo5 from "../images/whylogo5.png";
 
 function Whycomponent() {
   return (
-    <div className="Why">
+    <div className="Why" id="whyus">
         <h5>Why should we <span className="MNMA"> manage your project?</span></h5>
 
         <div className="container">

@@ -15,8 +15,11 @@
 .whycontent.whycontent > h5{
     margin-top: -0.4em;
 }
-.whycontent.whycontent > img {
-    margin-left: 66px;
+.whylogo1, .whylogo2, .whylogo3, .whylogo4, .whylogo5, .whylogo6 {
+    transform: scale(1.1);
+    margin-left: 0px;
+    padding: 0px;
+    width:max-content;
 }
 .container.container {
     position: relative;
@@ -26,8 +29,10 @@
     border-bottom: 0px;
     border-style: solid;
     border-color:rgba(54, 68, 81, 0.99);
+    padding-left: 20px;
 }
 .slider {
+    z-index: 2;
     position: absolute;
     border-left:4.4px;
     border-top: 0px;
@@ -44,7 +49,7 @@
     position: absolute;
     height: 60px;
     width: 14px;
-    z-index: 24;
+    z-index: -1;
     bottom: -18px;
     left: -10px;
     background-color: #1a2026;
@@ -68,12 +73,25 @@
 
 /* desktop view */
   
-@media (min-width: 40em) {
+@media (min-width: 48em) {
     .whyflex {
       display: flex;
+      column-gap: 6rem;
     }
     .whyflex__twist {
         display: flex;
+        column-gap: 6rem;
+    }
+    .whyflex__twist > p {
+        order: -1;
+    }
+}
+@media (min-width: 54em) {
+    .whyflex {
+      column-gap: 10rem;
+    }
+    .whyflex__twist {
+        column-gap: 10rem;
     }
     .whyflex__twist > p {
         order: -1;

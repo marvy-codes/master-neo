@@ -46,7 +46,7 @@ function Whatcomponent() {
       </div>
 
       <div className="about__desktop">
-        <div className="about">
+        <div className="about" id="aboutus">
             <div className="about__desktop1">
               <h5>About <span className="MNMA">MNMA</span></h5>
                 <p>

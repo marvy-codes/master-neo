@@ -39,7 +39,7 @@
     left: 0;
     bottom: 0;
     height: 40vh;
-    width: 100vw;
+    width: 100%;
     z-index: 9;
     display: none;
     text-align: center;
@@ -47,10 +47,14 @@
     margin-top: 0;
     padding-inline-start: 0px;
     border-radius: 8px;
+    transition: 2s ease-in-out;
+    top: -100%; 
 }
   
 .menuNav.showMenu {
     display: block;
+    transition: 2s ease-in-out;
+    top: 0;  
 }
   
 /* a {
@@ -87,6 +91,9 @@
   margin-left: 75%;
   top: 8px;
   background-image: linear-gradient(to bottom, #FCFCFC, #FCFCFC) !important;
+}
+.navbutton > a {
+  color:#4AAAFF !important;
 }
 @media ( min-width: 820px) {
   .navbutton {
@@ -145,8 +152,9 @@
   justify-content: space-evenly;
 }
 .header__desktop__item3 > button {
-  margin-top: 22px;
+  margin-top: 0.1px;
   margin-left: 12px;
+  font-size: medium;
 }
 .menuNav__desktop2 > li >img {
   margin-top: 6px;
