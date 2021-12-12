@@ -10,7 +10,7 @@ function Footer() {
             <div className="foot1">
                 <h5><span className="MNMA">want to work us?</span></h5>
                 <button className="button footerbutton"><a href="https://t.me/neo_49">Hire us</a></button>
-                <h4><p className="MNMA f-m quick">Quick Links</p></h4>
+                <h4><p className="MNMA f-l quick">Quick Links</p></h4>
                 <ul className="footernav">
                     <li><a href="#aboutus" className="f-m">About us</a></li>
                     <li><a href="#whyus" className="f-m">why us</a></li>

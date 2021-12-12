@@ -55,6 +55,7 @@ a:hover  {
 .f-sm {
   font-size: x-small;
 }
-.f-m {
-  font-size: small;
+.f-l{
+  font-size: large;
+  font-weight: 400;
 }

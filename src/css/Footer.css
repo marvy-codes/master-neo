@@ -33,12 +33,6 @@
     align-self: flex-end;
     
 }
-.footerul {
-    list-style-type: none;
-    margin-left: auto;
-    margin-right: auto;
-    padding-inline-start: 0;
-}
 .footernav {
     margin-top: -24px;
 }
@@ -50,9 +44,17 @@
 }
 .quick {
     text-align: center;
-    margin-left: -22px;
+    margin-left: -18px;
 }
 .copyright {
     margin-top: 0px;
     background-color: #191d22;
+}
+
+@media (min-width: 40em) {
+    .footernav li{
+        display: inline;
+        margin-right: 18px;
+        font-size: small;
+    }
 }
