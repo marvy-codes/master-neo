@@ -2,7 +2,6 @@
     display: flex;
     position: relative;
     justify-content: space-between;
-    background-color: #191d22;
 }
 .footer h4{
     margin-top: 100px;
