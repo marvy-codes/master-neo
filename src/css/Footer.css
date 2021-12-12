@@ -3,6 +3,11 @@
     position: relative;
     justify-content: space-between;
 }
+@media (max-width: 30em) {
+    .footer{
+       background-color: #181d22;
+    }
+}
 .footer h4{
     margin-top: 100px;
     margin-left: -36px;
@@ -48,7 +53,11 @@
 .copyright {
     margin-top: 0px;
 }
-
+@media (max-width: 30em) {
+    .copyright {
+       background-color: #181d22;
+    }
+}
 @media (min-width: 40em) {
     .footernav li{
         display: inline;
