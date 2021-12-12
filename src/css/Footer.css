@@ -3,7 +3,7 @@
     position: relative;
     justify-content: space-between;
 }
-@media (max-width: 30em) {
+@media (max-width: 40em) {
     .footer{
        background-color: #181d22;
     }
@@ -53,7 +53,7 @@
 .copyright {
     margin-top: 0px;
 }
-@media (max-width: 30em) {
+@media (max-width: 40em) {
     .copyright {
        background-color: #181d22;
     }
