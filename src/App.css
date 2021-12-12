@@ -50,5 +50,11 @@ a {
   color: white;
 }
 a:hover  {
-   color: #b2dbf5;
+   color: #5ebffc;
+}
+.f-sm {
+  font-size: x-small;
+}
+.f-m {
+  font-size: small;
 }

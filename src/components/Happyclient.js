@@ -9,8 +9,8 @@ import happyclient5 from "../images/happyclient5.svg";
 function Happyclient() {
   return (
     <div>
-        <div id="clients">
-            <h5>Happy <span className="MNMA">Clients</span></h5>
+        <div id="clients" >
+            <h5 className="clients">Happy <span className="MNMA">Clients</span></h5>
             <div className="happycards">
                 <div className="happycard">
                     <img src={happyclient1} alt="Radar" className="" />

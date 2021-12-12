@@ -1,8 +1,8 @@
 import '../css/Aside.css';
 import asidelogo from "../images/asidelogo.svg";
-import twitterlogo from "../images/twitterlogo.svg";
-import instagramlogo from "../images/instagramlogo.svg";
-import mediumlogo from "../images/mediumlogo.svg";
+// import twitterlogo from "../images/twitterlogo.svg";
+// import instagramlogo from "../images/instagramlogo.svg";
+// import mediumlogo from "../images/mediumlogo.svg";
 import card1 from "../images/card1.svg";
 import card2 from "../images/card2.svg";
 import card3 from "../images/card3.svg";

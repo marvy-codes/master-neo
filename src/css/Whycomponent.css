@@ -47,32 +47,16 @@
 
 .slidercover {
     position: absolute;
-    height: 60px;
+    height: 140px;
     width: 14px;
-    z-index: -1;
-    bottom: -18px;
+    z-index: 3;
+    bottom: -140px;
     left: -10px;
     background-color: #1a2026;
     color: #1a2026;
 }
-@media (max-width: 40em) {
-    .slidercover {
-        height: 80px;
-        bottom: -28px
-    }
-}
-
-@keyframes straightLine {
-    0% {
-       transform: translate(1.6px);
-    }
-      100% {
-        transform: translate(0, 2100px);
-    }
-}
 
 /* desktop view */
-  
 @media (min-width: 48em) {
     .whyflex {
       display: flex;
@@ -98,14 +82,43 @@
     }
 }
 
-/* Slider desktop */
-@media (min-width: 40em) {
+
+/* silder mobile */
+
+@media (min-width: 30em) {
+    .slidercover {
+        height: 200px;
+        bottom: -58px !important;
+    }
     @keyframes straightLine {
         0% {
            transform: translate(1.6px);
         }
           100% {
-            transform: translate(0, 1460px);
+            transform: translate(0, 2000px);
+        }
+    }
+}
+
+@keyframes straightLine {
+    0% {
+       transform: translate(1.6px);
+    }
+      100% {
+        transform: translate(0, 2840px);
+    }
+}
+
+
+
+/* Slider desktop */
+@media (min-width: 50em) {
+    @keyframes straightLine {
+        0% {
+           transform: translate(1.6px);
+        }
+          100% {
+            transform: translate(0, 1560px);
         }
     }
 }

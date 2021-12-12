@@ -132,8 +132,9 @@
 .aboutimage {
   position: relative;
   top: -24px;
-  height: 380px;
+  height: 340px;
   z-index: -12;
+  margin-left: 12px;
 }
 @media (min-width: 45em) {
   .about {

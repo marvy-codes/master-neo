@@ -1,3 +1,7 @@
+.clients{
+    z-index: 8 !important;
+    margin-left: 20px;
+}
 .happycards {
     display: flex;
     flex-wrap: wrap;
