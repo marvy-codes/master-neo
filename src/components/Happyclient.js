@@ -13,7 +13,7 @@ function Happyclient() {
             <h5 className="clients">Happy <span className="MNMA">Clients</span></h5>
             <div className="happycards">
                 <div className="happycard">
-                    <img src={happyclient1} alt="Radar" className="" />
+                    <img src={happyclient1} alt="Radar" className="firstcard" />
                     <div className="happyglowDot"></div>
                 </div>
                 <div className="happycard">
