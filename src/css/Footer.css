@@ -2,6 +2,7 @@
     display: flex;
     position: relative;
     justify-content: space-between;
+    height: 280px;
 }
 @media (max-width: 40em) {
     .footer{
@@ -16,12 +17,13 @@
     margin-bottom: 50px;
     font-size: large;
     width: max-content;
+    height: 18px;
 }
 .footerbutton {
     position: absolute;
     left: 12px;
-    width: 114px;
-    height: 46px;
+    width: 100px;
+    height: 38px;
 }
 .footernav {
     list-style: none;
@@ -50,6 +52,14 @@
 .quick {
     text-align: center;
     margin-left: -18px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height:22px;
+}
+@media (min-width: 40em) {
+    .quick {
+        height:12px;
+    }
 }
 .copyright {
     margin-top: 0px;
