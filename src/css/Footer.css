@@ -42,6 +42,7 @@
 }
 .footernav li {
     margin-top: 0px;
+    font-size: small;
 }
 .footerul li img {
     margin-right: 6px;
@@ -62,6 +63,6 @@
     .footernav li{
         display: inline;
         margin-right: 18px;
-        font-size: small;
+        
     }
 }
