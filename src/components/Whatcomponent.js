@@ -17,7 +17,7 @@ function Whatcomponent() {
             <p>
                   Master Neo's Moderation Agency is a platform that deals in the managing and handling 
                   of social apps and the community of crypto inclined Companies and projects. You've
-                  got a project and you need Mods for a chat or Twitter handlers?, well search no more 
+                  got a project and you need Mods for a chat or Twitter handlers? Well search no more 
                   cause you're in the right place. We offer various managerial services, such as:
             </p>
             <div className="whatcards">
