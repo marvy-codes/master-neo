@@ -31,7 +31,7 @@ function Header() {
                     <li onClick={() => closeMenu()} ><a href="#aboutus">About us</a></li>
                     <li onClick={() => closeMenu()} ><a href="#whyus">why us</a></li>
                     <li onClick={() => closeMenu()} ><a href="#clients">Clients</a></li>
-                    <button className="button navbutton" onClick={() => closeMenu()}><a href="https://t.me/neo_49">Hire us</a></button>
+                    <button className="button navbutton"><a href="https://t.me/neo_49">Hire us</a></button>
                 </ul>
             </nav>
             <div className="header_logo">
@@ -63,9 +63,7 @@ function Header() {
                 <ul className="menuNav__desktop2"> 
                     {/* <li><img src={twitterlogo} alt="twitter" className="twitterlogo" /></li> */} 
                 </ul>
-                <button className="button">
-                    <a href="https://t.me/neo_49">Hire us</a>
-                </button>
+                <button className="button"><a href="https://t.me/neo_49">Hire us</a></button>
             </div>
 
         </header>
