@@ -79,3 +79,6 @@
 .copyright > span {
     color: gray;
 }
+.footerbutton {
+    margin-top: -30px;
+}
