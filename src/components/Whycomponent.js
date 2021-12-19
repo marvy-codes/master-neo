@@ -16,7 +16,9 @@ function Whycomponent() {
                     <h3 className="MNMA">24 Hours</h3>
                     <h5>Management Coverage</h5>
                     <div className="whyflex">
-                        <img src={whylogo1} alt="Management" className="whylogo1" />
+                        <div className="whyimage">
+                            <img src={whylogo1} alt="Management" className="whylogo1" />
+                        </div>
                         <p>
                             We offer 24-hour coverage on community groups. We have Moderators from every Time-Zone needed
                             to achieve proper 24-hour community coverage. This directly increases effective management of
@@ -30,7 +32,9 @@ function Whycomponent() {
                     <h3 className="MNMA">Fully Doxxed?</h3>
                     <h5>Moderators</h5>
                     <div className="whyflex__twist">
-                        <img src={whylogo2} alt="Fully Doxxed" className="whylogo2" />
+                        <div>
+                            <img src={whylogo2} alt="Fully Doxxed" className="whylogo2" />
+                        </div>
                         <p>
                             All Moderators under our agency are doxxed with us: the agency has their details and information. So 
                             the problem of moderators collecting pay and running away without working is eradicated here. Also, interactions
@@ -43,7 +47,9 @@ function Whycomponent() {
                 <div className="whycontent">
                     <h3 className="MNMA">Versatility?</h3>
                     <div className="whyflex">
-                        <img src={whylogo3} alt="Versatility" className="whylogo3"/>
+                        <div>
+                            <img src={whylogo3} alt="Versatility" className="whylogo3"/>
+                        </div>
                         <p>
                             Due to the large number of projects launching every day, we have also adapted by having more than enough
                             moderators on board. Meaning we can handle multi-projects at the same time. Both long-term and short-term.
@@ -54,7 +60,9 @@ function Whycomponent() {
                 <div className="whycontent">
                     <h3 className="MNMA">Trained Moderators?</h3>
                     <div className="whyflex__twist">
-                        <img src={whylogo4} alt="Trained Moderators" className="whylogo4" />
+                        <div>
+                            <img src={whylogo4} alt="Trained Moderators" className="whylogo4" />
+                        </div>
                         <p>
                             Our moderators are equipped with the skills needed in managing groups and communities. Skills like Spam Bots Configurations,
                             proper set-up of pinned Messages and so on.
@@ -66,7 +74,9 @@ function Whycomponent() {
                 <div className="whycontent">
                     <h3 className="MNMA">Community Focus?</h3>
                     <div className="whyflex">
-                        <img src={whylogo5} alt="Community Focus" className="whylogo5" />
+                        <div>
+                            <img src={whylogo5} alt="Community Focus" className="whylogo5" />
+                        </div>
                         <p>
                             Our Moderators are specially trained with effective communication and managerial skills. We focus on community wants
                             and needs and always make sure their questions are replied immediately and their suggestions taken note of

@@ -18,10 +18,10 @@ function App() {
         <img src={headershadow} alt="" />
       </div>
       <Header />
-      <Aside />
-      <Whatcomponent />
-      <Whycomponent />
-      <Happyclient />
+        <Aside />
+            <Whatcomponent />
+            <Whycomponent />
+        <Happyclient />
       <Footer />
     </div>
   );
