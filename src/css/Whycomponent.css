@@ -24,7 +24,7 @@
 }
 .container.container {
     position: relative;
-    border-left:6px;
+    border-left:7px;
     border-top: 0px;
     border-right: 0px;
     border-bottom: 0px;
@@ -35,14 +35,14 @@
 .slider {
     z-index: 2;
     position: absolute;
-    border-left:4.4px;
+    border-left:6px;
     border-top: 0px;
     border-right: 0px;
     border-bottom: 0px;
     border-style: solid;
     border-color:rgba(8, 103, 193, 0.99);
     height: 40px;
-    left: -6px;
+    left: -7px;
     animation: straightLine 8.5s infinite linear;
 }
 
