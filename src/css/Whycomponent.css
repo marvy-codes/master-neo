@@ -53,8 +53,8 @@
     z-index: 3;
     bottom: -70px;
     left: -10px;
-    background-color: #1a2026;
-    color: #1a2026;
+    background-color: #1b2025;;
+    color: #1b2025;;
     margin-top: 0.11px;
 }
 
@@ -130,7 +130,7 @@
            transform: translate(1.6px);
         }
           100% {
-            transform: translate(0, 1530px);
+            transform: translate(0, 1560px);
         }
     }
 }
@@ -140,7 +140,7 @@
            transform: translate(1.6px);
         }
           100% {
-            transform: translate(0, 1620px);
+            transform: translate(0, 1705px);
         }
     }
 }
