@@ -3,6 +3,11 @@
   max-width: 1200px;
   margin: 0 auto;
 }
+@media (min-width: 65em) {
+    .App {
+      max-width: 1600px;
+    }
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

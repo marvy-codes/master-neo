@@ -8,7 +8,7 @@ function Footer() {
     <div>
         <div className="footer">
             <div className="foot1">
-                <h5><span className="MNMA">want to work us?</span></h5>
+                <h5><span className="MNMA">want to work with us?</span></h5>
                 <button className="button footerbutton"><a href="https://t.me/neo_49">Hire us</a></button>
                 <h4><p className="MNMA f-l quick">Quick Links</p></h4>
                 <ul className="footernav">
