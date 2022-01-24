@@ -61,9 +61,9 @@ function Header() {
 
             <div className="header__desktop__item3">
                 <ul className="menuNav__desktop2"> 
-                    {/* <li><img src={twitterlogo} alt="twitter" className="twitterlogo" /></li> */} 
+                    {/* <li><img src={twitterlogo} alt="twitter" className="twitterlogo" /></li> */}
                 </ul>
-                <button className="button"><a href="https://t.me/neo_49">Hire us</a></button>
+                <button className="button"><a href="https://t.me/neo_49" target="_blank">Hire us</a></button>
             </div>
 
         </header>
