@@ -52,8 +52,8 @@ function Whatcomponent() {
                 <p>
                   Master Neo's Moderation Agency is fully sustainable and efficient Moderation provision
                   service that gives Project owners and Developers confidence and peace of mind knowing
-                  that their communities and social Accounts are properly and efficiently managed free 
-                  from spammers fudders and negative individuals.
+                  that their communities and social accounts are properly and efficiently managed free 
+                  from spammers, fudders and negative individuals.
                 </p>
                 <p>
                   MNMA is a revolutionary approach to the management Space that matches all your needs with
