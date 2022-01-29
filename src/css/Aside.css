@@ -50,7 +50,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 12px 12px;
+    gap: 4% 4%;
+    /* width: 900px; */
 }
 .card {
     position: relative;
