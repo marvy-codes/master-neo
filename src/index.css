@@ -2,11 +2,11 @@
 
 :root {
   box-sizing: border-box;
-  font-size: calc(1vw + 0.6em); 
+  font-size: calc(1vw + 1em); 
 }
 @media (min-width: 48em) {
   :root {
-    font-size: calc(1vw + 0.5em); 
+    font-size: calc(1vw + 0.7em); 
   }
 }
 *, ::before, ::after {

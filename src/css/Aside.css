@@ -50,7 +50,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 4% 4%;
+    gap: 4% 5%;
     /* width: 900px; */
 }
 .card {
