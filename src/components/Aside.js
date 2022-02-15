@@ -16,7 +16,7 @@ function Aside() {
             <aside className="aside">
                 <div>
                    <img src={asidelogo} alt="Master neo" className="asidelogo" />
-                    <button className="button asidebutton"><a href="https://t.me/neo_49" target="_blank">Hire us</a></button>
+                    <button className="button asidebutton"><a href="https://t.me/neo_49" target="_blank" rel="noreferrer">Hire us</a></button>
                     <ul className="asidemenubar">
                         {/* <li><img src={twitterlogo} alt="twitter" className="twitterlogo" /></li>
                         <li><img src={mediumlogo} alt="medium" className="mediumlogo" /></li>
