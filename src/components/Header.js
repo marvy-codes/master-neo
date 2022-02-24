@@ -4,7 +4,7 @@ import { FiMenu } from "react-icons/fi";
 import '../css/Header.css';
 import Logo from "../images/Logo.svg";
 import navbarlogo from "../images/navbarlogo.svg";
-// import twitterlogo from "../images/twitterlogo.svg";
+import twitterlogo from "../images/twitterlogo.svg";
 
 function Header() {
     
@@ -61,7 +61,7 @@ function Header() {
 
             <div className="header__desktop__item3">
                 <ul className="menuNav__desktop2"> 
-                    {/* <li><img src={twitterlogo} alt="twitter" className="twitterlogo" /></li> */}
+                    <li><a href="https://twitter.com/MasterNeoMods" rel="noreferrer"  target="_blank"><img src={twitterlogo} alt="twitter" className="twitterlogo" /></a></li>
                 </ul>
                 <button className="button"><a href="https://t.me/neo_49" target="_blank" rel="noreferrer">Hire us</a></button>
             </div>

@@ -49,3 +49,6 @@ a:hover  {
   font-size: large;
   font-weight: 400;
 }
+iframe {
+  display: none;
+}
