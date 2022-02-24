@@ -24,6 +24,18 @@
     left: 12px;
     width: 100px;
     height: 38px;
+    padding-top: 40px;
+    font-size: medium;
+    background-color: #4AAAFF;
+    border-radius: 6px;
+    padding-top: 6px;
+    transition: all 1s;
+}
+.footerbutton:hover {
+    border: 1px solid #4AAAFF;
+    color: #4AAAFF;
+    background-color: rgb(26, 32, 38, .99)!important;
+    transition: all 1s;
 }
 .footernav {
     list-style: none;
