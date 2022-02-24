@@ -147,10 +147,22 @@
   margin-top: 2px;
   justify-content: space-evenly;
 }
-.header__desktop__item3 > button {
-  margin-top: 18px;
+.header__desktop__item3 > a {
+  margin-top: 21.8px;
   margin-left: 18px;
   font-size: small;
+  height: 34px;
+  width: 100px;
+  background-color: #4AAAFF;
+  border-radius: 2px;
+  padding-top: 6px;
+  transition: all 1s;
+}
+.header__desktop__item3 > a:hover {
+  border: 1px solid #4AAAFF;
+  color: #4AAAFF;
+  background-color: rgb(26, 32, 38, .99);
+  transition: all 1s;
 }
 .menuNav__desktop2 > li >img {
   margin-top: 6px;

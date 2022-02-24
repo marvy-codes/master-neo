@@ -63,7 +63,7 @@ function Header() {
                 <ul className="menuNav__desktop2"> 
                     <li><a href="https://twitter.com/MasterNeoMods" rel="noreferrer"  target="_blank"><img src={twitterlogo} alt="twitter" className="twitterlogo" /></a></li>
                 </ul>
-                <button className="button"><a href="https://t.me/neo_49" target="_blank" rel="noreferrer">Hire us</a></button>
+                <a type="button" href="https://t.me/neo_49" target="_blank" rel="noreferrer">Hire us</a>
             </div>
 
         </header>
