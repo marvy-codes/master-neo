@@ -39,9 +39,7 @@ function Header() {
             </div>
 
             <div>
-                <button className="button">
-                    <a href="https://t.me/neo_49" target="_blank" rel="noreferrer">Hire us</a>
-                </button>
+                    <a className="mobile__button" type="button" href="https://t.me/neo_49" target="_blank" rel="noreferrer">Hire us</a>
             </div>
         </header>
 
