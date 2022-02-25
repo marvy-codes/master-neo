@@ -1,7 +1,7 @@
 import './App.css';
 import headershadow from "./images/headershadow.svg";
-// import overlaytelegram from "./images/overlaytelegram.svg";
-// import overlaytwitter from "./images/overlaytwitter.svg";
+import overlaytelegram from "./images/overlaytelegram.png";
+import overlaytwitter from "./images/overlaytwitter.png";
 import Header from './components/Header';
 import Aside from './components/Aside';
 import Whatcomponent from './components/Whatcomponent';
@@ -21,7 +21,7 @@ function App() {
             <Whycomponent />
         <Happyclient />
       <Footer />
-      {/* <div className="overlay__container">
+      <div className="overlay__container">
         <div className="overlay">
             <h4 className="overlay__header"></h4>
             <div>
@@ -29,7 +29,7 @@ function App() {
                 <a><img src={overlaytwitter} alt=''/></a>
             </div>
         </div>
-    </div> */}
+    </div>
     </div>
   );
 }
