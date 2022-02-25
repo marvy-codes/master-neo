@@ -3,6 +3,7 @@
     position: relative;
     justify-content: space-between;
     height: 280px;
+
 }
 @media (max-width: 40em) {
     .footer{
@@ -93,4 +94,15 @@
 }
 .footerbutton {
     margin-top: -30px;
+}
+@media (max-width: 40em) {
+    .foot2{
+        position: absolute;
+        right: 12px;
+        
+    }
+    .footerlogo {
+        width: 220px;
+        height: 220px;
+    }
 }
