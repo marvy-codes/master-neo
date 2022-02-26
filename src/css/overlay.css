@@ -1,0 +1,7 @@
+/* .overlay__images {
+  display: flex;
+} */
+.overlay__image {
+    width: 20px;
+    height: 20px;
+  }

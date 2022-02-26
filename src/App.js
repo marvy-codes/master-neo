@@ -1,13 +1,12 @@
 import './App.css';
 import headershadow from "./images/headershadow.svg";
-import overlaytelegram from "./images/overlaytelegram.png";
-import overlaytwitter from "./images/overlaytwitter.png";
 import Header from './components/Header';
 import Aside from './components/Aside';
 import Whatcomponent from './components/Whatcomponent';
 import Whycomponent from './components/Whycomponent';
 import Happyclient from './components/Happyclient';
 import Footer from './components/Footer';
+import Overylay from './components/Overylay';
 
 function App() {
   return (
@@ -21,15 +20,7 @@ function App() {
             <Whycomponent />
         <Happyclient />
       <Footer />
-      <div className="overlay__container">
-        <div className="overlay">
-            <h4 className="overlay__header"></h4>
-            <div>
-                <a><img src={overlaytelegram} alt=''/></a>
-                <a><img src={overlaytwitter} alt=''/></a>
-            </div>
-        </div>
-    </div>
+      <Overylay />
     </div>
   );
 }
