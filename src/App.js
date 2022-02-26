@@ -6,7 +6,7 @@ import Whatcomponent from './components/Whatcomponent';
 import Whycomponent from './components/Whycomponent';
 import Happyclient from './components/Happyclient';
 import Footer from './components/Footer';
-import Overylay from './components/Overylay';
+// import Overylay from './components/Overylay';
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
             <Whycomponent />
         <Happyclient />
       <Footer />
-      <Overylay />
+      {/* <Overylay /> */}
     </div>
   );
 }
