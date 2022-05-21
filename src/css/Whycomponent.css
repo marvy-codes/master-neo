@@ -9,6 +9,14 @@
     margin-bottom: 4px;
     margin-top: 32px;
 }
+@media (max-width: 47em) {
+    .whycontent.whycontent {
+        padding-left: 0px;
+}
+.container.container.container {
+    padding-left: 5px !important;
+}
+}
 .whycontent.whycontent > img {
     margin-top: 0;
 }
