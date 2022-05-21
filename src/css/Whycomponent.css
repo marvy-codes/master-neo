@@ -19,8 +19,11 @@
     transform: scale(1.1);
     margin-left: 0px;
     padding: 0px;
-    width:max-content;
+    width: max-content;
     object-fit: center;
+
+    display: table !important;
+    margin: 0 auto !important;
 }
 .container.container {
     position: relative;
@@ -62,25 +65,26 @@
 @media (min-width: 48em) {
     .whyflex {
       display: flex;
-      column-gap: 6rem;
+      column-gap: 2rem;
+      /* justify-items: center; */
     }
     .whyflex__twist {
         display: flex;
-        column-gap: 6rem;
+        column-gap: 2rem;
     }
     .whyflex__twist > p {
         order: -1;
+    }
+    .whyimage {
+        min-width: 300px;
     }
 }
 @media (min-width: 54em) {
     .whyflex {
-      column-gap: 10rem;
+      column-gap: 3rem;
     }
     .whyflex__twist {
-        column-gap: 10rem;
-    }
-    .whyflex__twist > p {
-        order: -1;
+        column-gap: 3rem;
     }
 }
 

@@ -32,7 +32,7 @@ function Whycomponent() {
                     <h3 className="MNMA">Fully Doxxed?</h3>
                     <h5>Moderators</h5>
                     <div className="whyflex__twist">
-                        <div>
+                        <div  className="whyimage">
                             <img src={whylogo2} alt="Fully Doxxed" className="whylogo2" />
                         </div>
                         <p>
@@ -47,7 +47,7 @@ function Whycomponent() {
                 <div className="whycontent">
                     <h3 className="MNMA">Versatility?</h3>
                     <div className="whyflex">
-                        <div>
+                        <div  className="whyimage">
                             <img src={whylogo3} alt="Versatility" className="whylogo3"/>
                         </div>
                         <p>
@@ -60,7 +60,7 @@ function Whycomponent() {
                 <div className="whycontent">
                     <h3 className="MNMA">Trained Moderators?</h3>
                     <div className="whyflex__twist">
-                        <div>
+                        <div  className="whyimage">
                             <img src={whylogo4} alt="Trained Moderators" className="whylogo4" />
                         </div>
                         <p>
@@ -74,7 +74,7 @@ function Whycomponent() {
                 <div className="whycontent">
                     <h3 className="MNMA">Community Focus?</h3>
                     <div className="whyflex">
-                        <div>
+                        <div  className="whyimage">
                             <img src={whylogo5} alt="Community Focus" className="whylogo5" />
                         </div>
                         <p>
@@ -83,7 +83,8 @@ function Whycomponent() {
                         </p>
                     </div>
                 </div>
-            <div className="slidercover">f</div>  
+               
+            <div className="slidercover">.</div>  
         </div>
     </div>
   );
