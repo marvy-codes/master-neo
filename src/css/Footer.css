@@ -64,7 +64,7 @@
 }
 .quick {
     text-align: center;
-    margin-left: -18px;
+    margin-left: -50px;
     margin-top: 0px;
     margin-bottom: 0px;
     height:22px;
@@ -80,6 +80,9 @@
 @media (max-width: 40em) {
     .copyright {
        background-color: #181d22;
+    }
+    .quick {
+        margin-left: -48px;
     }
 }
 @media (min-width: 40em) {
