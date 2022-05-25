@@ -6,23 +6,25 @@ import Whatcomponent from './components/Whatcomponent';
 import Whycomponent from './components/Whycomponent';
 import Happyclient from './components/Happyclient';
 import Footer from './components/Footer';
-// import Overylay from './components/Overylay';
+import Contactmodal from './components/contactmodal';
 
 function App() {
-  return (
-    <div className="App">
-      <div className="headershadow">
-        <img src={headershadow} alt="" />
+    return (
+      <div>
+        <div className="App">
+        <div className="headershadow">
+          <img src={headershadow} alt="" />
+        </div>
+        <Header />
+          <Aside />
+              <Whatcomponent />
+              <Whycomponent />
+          <Happyclient />
+        <Footer />
       </div>
-      <Header />
-        <Aside />
-            <Whatcomponent />
-            <Whycomponent />
-        <Happyclient />
-      <Footer />
-      {/* <Overylay /> */}
-    </div>
-  );
+        <Contactmodal />
+      </div>
+    );
 }
 
 export default App;

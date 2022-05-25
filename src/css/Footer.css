@@ -64,7 +64,7 @@
 }
 .quick {
     text-align: center;
-    margin-left: -50px;
+    margin-left: -80px;
     margin-top: 0px;
     margin-bottom: 0px;
     height:22px;
@@ -82,7 +82,7 @@
        background-color: #181d22;
     }
     .quick {
-        margin-left: -48px;
+        margin-left: -78px;
     }
 }
 @media (min-width: 40em) {

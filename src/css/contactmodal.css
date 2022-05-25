@@ -1,0 +1,52 @@
+.overlay__container {
+    display: none;
+}
+.modal__backdrop {
+    z-index: 1000;
+    height: 100vh;
+    width: 100vw;
+    background: rgba(36, 36, 39, 0.559);
+    position: fixed;
+    top: 0;
+    z-index: 20;
+    -webkit-filter: blur(1px);
+    -moz-filter: blur(1px);
+    -o-filter: blur(1px);
+    -ms-filter: blur(1px);
+    filter: blur(1px);
+    display: block;
+}
+.overlay {
+    z-index: 1500;
+    border: 3px solid #149fc2;
+    border-radius: 12px;
+    width: 300px;
+    height: 200px;
+    position: fixed;
+    left: 50%;
+    top: 50%; 
+    margin-left: -150px;
+    margin-top: -150px;
+    background-color: hsl(210, 19%, 13%, 1);
+}
+.contact__header {
+    margin-bottom: 0px;
+    color: hsl(0, 0%, 99%, 0.6);
+    padding: 0px;
+    font-weight: 400;
+    display: table;
+    margin: 0 auto;
+    margin-top: 24px;
+}
+.images {
+    /* display: flex; */
+    justify-content: space-around;
+    margin-top: 0px;
+    display: table;
+    margin: 0 auto;
+}
+
+.contact_img {
+    width: 120px;
+    height: 120px;
+}
