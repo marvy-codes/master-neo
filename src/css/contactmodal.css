@@ -1,4 +1,7 @@
-.overlay__container {
+.overlay__containershow {
+    display: initial;
+}
+.overlay__containerhide {
     display: none;
 }
 .modal__backdrop {

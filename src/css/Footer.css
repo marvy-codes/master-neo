@@ -29,8 +29,10 @@
     font-size: medium;
     background-color: #4AAAFF;
     border-radius: 6px;
-    padding-top: 6px;
+    padding-top: 3px;
     transition: all 1s;
+    color: white;
+    border: 0;
 }
 .footerbutton:hover {
     border: 1px solid #4AAAFF;

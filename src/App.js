@@ -7,23 +7,26 @@ import Whycomponent from './components/Whycomponent';
 import Happyclient from './components/Happyclient';
 import Footer from './components/Footer';
 import Contactmodal from './components/contactmodal';
+import GlobalStateProvider from './store/GlobalStateProvider';
 
 function App() {
     return (
-      <div>
-        <div className="App">
-        <div className="headershadow">
-          <img src={headershadow} alt="" />
+      <GlobalStateProvider>
+        <div>
+          <div className="App">
+            <div className="headershadow">
+              <img src={headershadow} alt="" />
+            </div>
+            <Header />
+              <Aside />
+                  <Whatcomponent />
+                  <Whycomponent />
+              <Happyclient />
+            <Footer />
+          </div>
+          <Contactmodal />
         </div>
-        <Header />
-          <Aside />
-              <Whatcomponent />
-              <Whycomponent />
-          <Happyclient />
-        <Footer />
-      </div>
-        <Contactmodal />
-      </div>
+      </GlobalStateProvider>
     );
 }
 

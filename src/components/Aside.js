@@ -1,8 +1,7 @@
+import React, {useContext } from "react";
+import Context from '../store/context';
 import '../css/Aside.css';
 import asidelogo from "../images/asidelogo.svg";
-// import twitterlogo from "../images/twitterlogo.svg";
-// import instagramlogo from "../images/instagramlogo.svg";
-// import mediumlogo from "../images/mediumlogo.svg";
 import card1 from "../images/card1.svg";
 import card2 from "../images/card2.svg";
 import card3 from "../images/card3.svg";
@@ -10,18 +9,17 @@ import card4 from "../images/card4.svg";
 
 
 function Aside() {
+    const { globalDispatch } = useContext(Context);
+    const openModal = () => {
+        globalDispatch({ type: "OPENMODAL"})
+    }
         
     return (
         <div>
             <aside className="aside">
                 <div>
                    <img src={asidelogo} alt="Master neo" className="asidelogo" />
-                    <a type="button" className="aside__top" href="https://t.me/neo_49" target="_blank" rel="noreferrer">Hire us</a>
-                    <ul className="asidemenubar">
-                        {/* <li><img src={twitterlogo} alt="twitter" className="twitterlogo" /></li>
-                        <li><img src={mediumlogo} alt="medium" className="mediumlogo" /></li>
-                        <li><img src={instagramlogo} alt="instagram" className="instagramlogo" /></li> */}
-                    </ul>
+                    <button className="aside__top" onClick={ () => openModal()}>Hire us</button>
                 </div>
 
                 <div className="cards">

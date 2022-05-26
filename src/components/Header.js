@@ -1,10 +1,10 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
+import Context from '../store/context';
 import { MdClose } from "react-icons/md";
 import { FiMenu } from "react-icons/fi";
 import '../css/Header.css';
 import Logo from "../images/Logo.svg";
 import navbarlogo from "../images/navbarlogo.svg";
-// import twitterlogo from "../images/twitterlogo.svg";
 
 function Header() {
     
@@ -12,9 +12,15 @@ function Header() {
     const handleToggle = () => {
         setNavbarOpen(prev => !prev)
     };
+
     const closeMenu = () => {
         setNavbarOpen(false)
     };
+
+    const { globalDispatch } = useContext(Context);
+    const openModal = () => {
+        globalDispatch({ type: "OPENMODAL"})
+    }
   
     return (
       <div>
@@ -31,7 +37,7 @@ function Header() {
                     <li onClick={() => closeMenu()} ><a href="#aboutus">About us</a></li>
                     <li onClick={() => closeMenu()} ><a href="#whyus">why us</a></li>
                     <li onClick={() => closeMenu()} ><a href="#clients">Clients</a></li>
-                    <button className="button navbutton"><a href="https://t.me/neo_49" target="_blank" rel="noreferrer">Hire us</a></button>
+                    <button className="button navbutton" onClick={ () => openModal()}>Hire us</button>
                 </ul>
             </nav>
             <div className="header_logo">
@@ -39,7 +45,9 @@ function Header() {
             </div>
 
             <div>
-                    <a className="mobile__button" type="button" href="https://t.me/neo_49" target="_blank" rel="noreferrer">Hire us</a>
+                <button className="mobile__button" onClick={ () => openModal()}>
+                    Hire us
+                </button>
             </div>
         </header>
 
@@ -57,12 +65,9 @@ function Header() {
                 </ul>
             </div>
 
-            <div className="header__desktop__item3">
-                {/* <ul className="menuNav__desktop2"> 
-                    <li><a href="https://twitter.com/MasterNeoMods" rel="noreferrer"  target="_blank"><img src={twitterlogo} alt="twitter" className="twitterlogo" /></a></li>
-                </ul> */}
-                <a type="button" href="https://t.me/neo_49" target="_blank" rel="noreferrer">Hire us</a>
-            </div>
+            <button className="header__desktop__item3" onClick={ () => openModal()}>
+                Hire us
+            </button>
 
         </header>
     </div>
