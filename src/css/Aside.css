@@ -39,7 +39,6 @@
 @media (min-width: 48em) {
     .aside {
         padding-top: 60px;
-        height: 72vh;
     }
     .asidelogo {
         width: 580px;
@@ -47,6 +46,10 @@
     }
     .asidemenubar {
         display: none;
+    }
+}@media (orientation: portrait) {
+    .aside {
+        height: auto;
     }
 }
 .aside ul {
